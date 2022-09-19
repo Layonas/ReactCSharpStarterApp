@@ -1,0 +1,2 @@
+C:\Users\Dovydas\source\repos\StarterReactApp\StarterReactApp\obj\Debug\starterreactapp.esproj.SuggestedBindingRedirects.cache
+C:\Users\Dovydas\source\repos\StarterReactApp\StarterReactApp\obj\Debug\starterreactapp.esproj.CoreCompileInputs.cache

@@ -1,0 +1,9 @@
+.form_textarea{
+    resize: none;
+}
+
+.form-group{
+    position: relative;
+    left: 33vw;
+    max-width: 30vw;
+}

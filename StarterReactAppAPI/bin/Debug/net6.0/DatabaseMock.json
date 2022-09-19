@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "Title": "My new note",
+    "Description": "This is the best note saving system",
+    "Date": "2022-09-16T15:32:00"
+  },
+  {
+    "Id": 2,
+    "Title": "Second note",
+    "Description": "This second note rocks!!",
+    "Date": "2022-09-16T18:10:33.962Z"
+  },
+  {
+    "Id": 3,
+    "Title": "Chicken",
+    "Description": "Very good recipe for chicken in google.com!",
+    "Date": "2022-09-17T14:56:29.51Z"
+  },
+  {
+    "Id": 4,
+    "Title": "Fire",
+    "Description": "123",
+    "Date": "2022-09-17T14:59:51.62Z"
+  },
+  {
+    "Id": 5,
+    "Title": "Darbas",
+    "Description": "\u003Ch1\u003EHello\u003C/h1\u003E",
+    "Date": "2022-09-19T18:49:45.165Z"
+  }
+]
