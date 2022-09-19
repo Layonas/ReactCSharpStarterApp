@@ -3,7 +3,17 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class Header extends Component {
+    constructor(props) {
+        super(props);
+    }
     render() {
+        let addButton = this.props.add ? (
+            <Link to="/Add">
+                <button className="btn btn-primary" type="button" id="AddButton">
+                    Add
+                </button>
+            </Link>
+        ) : null;
         return (
             <header>
                 <nav className="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
@@ -30,11 +40,7 @@ export default class Header extends Component {
                                     </a>
                                 </li>
                             </ul>
-                            <Link to="/Add">
-                                <button className="btn btn-primary" type="button" id="AddButton">
-                                    Add
-                                </button>
-                            </Link>
+                            {addButton}
                         </div>
                     </div>
                 </nav>
