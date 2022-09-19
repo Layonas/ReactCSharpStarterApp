@@ -85,7 +85,7 @@ export default class App extends Component {
                         path="/Add"
                         element={
                             <>
-                                <Header />
+                                <Header add={true} />
                                 <Add num={this.state.idMax} />
                             </>
                         }
